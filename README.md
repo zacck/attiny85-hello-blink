@@ -14,4 +14,4 @@ Steps
 2. Convert executable to intel hex with `avr-objcopy -O ihex -j .text -j .data a.out a.hex`
 3. Uplooad to attiny using USBAsp `avrdude -B4 -p t85 -c usbasp -U flash:w:a.hex:i`
 
-Enjoy a blinking led as below ![Attiny85 on Breadboard with LED](/IMG_9176.MOV)
+Enjoy a blinking led as below ![Attiny85 on Breadboard with LED](IMG_9176.MOV)
